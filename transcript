@@ -1,0 +1,94 @@
+# vsim -c -novopt top 
+# //  Questa Sim
+# //  Version 10.0b win32 May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing C:\Users\Naveen\Desktop\sv_works\clue_logic\candy_taster\work.top
+# Refreshing C:\Users\Naveen\Desktop\sv_works\clue_logic\candy_taster\work.top_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+#  
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Error: top.sv(3): Could not find the package (jelly_bean_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# ** Error: top.sv(4): near "module": syntax error, unexpected module, expecting ';' or ','
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Error: top.sv(3): Could not find the package (jelly_bean_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# -- Compiling package jelly_bean_pkg
+# ** Error: jelly_bean_transaction.sv(2): near "uvm_sequence_item": syntax error, unexpected IDENTIFIER
+# ** Error: jelly_bean_transaction.sv(2): Error in class extension specification.
+# ** Error: jelly_bean_transaction.sv(20): super.new() call illegal for class with no super-class.
+# ** Error: jelly_bean_transaction.sv(23): Syntax error: 'uvm_object_registry' is not a type.
+# ** Warning: (vlog-2292) An included file is associated with a closed OVM package, but no closed OVM package was imported
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Error: jelly_bean_transaction.sv(2): near "uvm_sequence_item": syntax error, unexpected IDENTIFIER
+# ** Error: jelly_bean_transaction.sv(2): Error in class extension specification.
+# ** Error: jelly_bean_transaction.sv(20): super.new() call illegal for class with no super-class.
+# ** Error: jelly_bean_transaction.sv(23): Syntax error: 'uvm_object_registry' is not a type.
+# ** Warning: (vlog-2292) An included file is associated with a closed OVM package, but no closed OVM package was imported
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Error: top.sv(4): Could not find the package (jelly_bean_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Error: jelly_bean_transaction.sv(2): near "uvm_sequence_item": syntax error, unexpected IDENTIFIER
+# ** Error: jelly_bean_transaction.sv(2): Error in class extension specification.
+# ** Error: jelly_bean_transaction.sv(20): super.new() call illegal for class with no super-class.
+# ** Error: jelly_bean_transaction.sv(23): Syntax error: 'uvm_object_registry' is not a type.
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Error: jelly_bean_transaction.sv(3): near "uvm_sequence_item": syntax error, unexpected IDENTIFIER
+# ** Error: jelly_bean_transaction.sv(3): Error in class extension specification.
+# ** Error: jelly_bean_transaction.sv(21): super.new() call illegal for class with no super-class.
+# ** Error: jelly_bean_transaction.sv(24): Syntax error: 'uvm_object_registry' is not a type.
+# C:/questasim_10.0b/win32/vlog failed.
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# ** Note: (vlog-2286) Using implicit +incdir+C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# C:/Users/Naveen/Desktop/sv_works/clue_logic/candy_taster
